@@ -1,0 +1,5 @@
+.newestler-metabox label { display:block; margin-bottom:6px; }
+.newestler-metabox input[type="date"],
+.newestler-metabox select,
+.newestler-metabox input[type="number"] { box-sizing:border-box; }
+#nw_insert_status { font-size:13px; color:#2b8a3e; margin-left:6px; }

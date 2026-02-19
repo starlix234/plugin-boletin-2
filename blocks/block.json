@@ -1,0 +1,31 @@
+{
+  "apiVersion": 2,
+  "name": "newestler/boletin",
+  "title": "Newestler Boletín",
+  "category": "widgets",
+  "icon": "media-document",
+  "description": "Genera boletines automáticos de noticias",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "categoria": {
+      "type": "string",
+      "default": ""
+    },
+    "start_date": {
+      "type": "string",
+      "default": ""
+    },
+    "end_date": {
+      "type": "string",
+      "default": ""
+    },
+    "limit": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": "newestler-block-editor",
+  "style": "newestler-block-style"
+}
